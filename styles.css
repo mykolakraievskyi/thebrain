@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "nunito";
+  color: #112d4e;
 }
 
 body {
@@ -70,4 +71,21 @@ body {
 h1 {
   padding: 0 0 0 0.5em;
   font-weight: normal;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-options {
+  justify-self: flex-start;
+  position: absolute;
+  background-color: #f9f7f7;
+  display: none;
+  min-width: 6em;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
 }

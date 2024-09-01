@@ -28,7 +28,6 @@ body {
   height: 3em;
   list-style-type: none;
   display: flex;
-  /* gap: 1em;  */
   align-items: center;
   justify-content: space-around;
   text-align: center;
